@@ -1,0 +1,10 @@
+
+apiVersion: configuration.konghq.com/v1
+kind: KongPlugin
+metadata:
+ name: add-header
+config:
+ add:
+   headers:
+   - x-company-name:AstarSimTech
+plugin: response-transformer
